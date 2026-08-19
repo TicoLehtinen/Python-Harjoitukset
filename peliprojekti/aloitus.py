@@ -1,0 +1,6 @@
+print("Mikä nimesi on?!)")
+nimi = input()
+print("Minkä ikäinen olet?")
+ikä = input()
+print("Nimesi on", nimi, "ja olet", ikä, "vuotta vanha.")
+if int(ikä) < 12: print("Voi ei, olet liian nuori pelaamaan tätä peliä! : ( ")
