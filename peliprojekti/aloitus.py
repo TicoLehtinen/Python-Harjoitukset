@@ -5,11 +5,13 @@ ikä = int(input())
 
 if ikä >= 12:
     print("Olet", nimi, "ja olet", ikä, "vuotta vanha, joten saat pelata peliä.")
-else: 
+else:
     print("Voi ei, olet liian nuori pelaamaan tätä peliä! :(")
 
+
 print("---------- Päävalikko ----------")
-print()
-
-
-
+print("---------Valitse komento:---------")
+print("-----------Aloita peli-----------")
+komento = input()
+print("--------------Ohje--------------")
+komento = input()
