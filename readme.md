@@ -14,4 +14,12 @@ Tein tehtävät 1, 2, 3, 4, 5 ja 6 + Projektin 1. tehtävän aloituksen.
 
 Tein tehtävät 1, 2, 3 ja 4 jo kotona ennen kyseisen moduulin opetustuntia.
 
+## Moduuli 5 ##
+
+Tein tehtävät 1, 2, 3 ja 5.
+
+## Moduuli 6 ##
+
+Tein tehtävät 1, 2 3 ja 4.
+
 
