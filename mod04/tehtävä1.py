@@ -1,5 +1,4 @@
-
-pituus =float (input("Kuinka pitkä kuha on?"))
+pituus = float(input("Kuinka pitkä kuha on?"))
 maksimi = 37
 if pituus < 37:
     erotus = maksimi - pituus
