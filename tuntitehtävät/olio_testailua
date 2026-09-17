@@ -1,0 +1,21 @@
+class Pet:
+    def __init__(self, name, hunger, happiness):
+        self.name = name
+        self.hunger = hunger
+        self.happiness = happiness
+    
+    def feed(self):
+        print("Nam nam, Lex nappasi madon ja on nyt tyytyväinen")
+    
+    def play(self):
+        print("Leikit Lexin kanssa, nyt se on paljon onnellisempi!")
+    
+    
+print("Mitä haluat tehdä lemmikkisi kanssa?")
+komento = input()
+
+while True:
+    print("Mitä haluat tehdä lemmikkisi kanssa?")
+    komento = input()
+    if komento == "syötä":
+        print(syötä)
