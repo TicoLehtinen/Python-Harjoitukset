@@ -8,14 +8,14 @@ class Kirja(Julkaisu):
         self.kirjoittaja = kirjoittaja
         self.sivumäärä = sivumäärä
     def tulosta_tiedot(self):
-        print(f"Kirjan nimi on: {self.nimi}, Kirjan kirjoittaja on: {self.kirjoittaja}, Kirjan sivumäärä on: {self.sivumäärä}")
+        print(f"Kirja: {self.nimi}, Kirjan kirjoittaja on: {self.kirjoittaja}, Kirjan sivumäärä on: {self.sivumäärä}")
     
 class Lehti(Julkaisu):
     def __init__(self, nimi, päätoimittaja):
         super().__init__(nimi)
         self.päätoimittaja = päätoimittaja
     def tulosta_tiedot(self):
-        print(f"Lehden nimi on: {self.nimi}, Lehden päätoimittaja on: {self.päätoimittaja}")
+        print(f"Lehti: {self.nimi}, Lehden päätoimittaja on: {self.päätoimittaja}")
         
 
 lehti = Lehti("Aku Ankka", "Aki Hyyppä")
