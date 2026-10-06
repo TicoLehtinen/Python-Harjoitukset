@@ -1,0 +1,19 @@
+<-------------------------------OHJEET------------------------------>
+<------------------Kirjoita komento päävalikkoon:------------------->
+aloita    - aloita peli
+liiku     - siirtyy valitsemaasi huoneeseen
+kerää     - kerää esineen nykyisestä huoneesta
+lajittele - lajittele repun esine (toimii vain Lajittelupisteessä)
+tutki     - huoneen erikoistoiminto (taukohuone, pomon huone)
+esineet   - näytä reppu
+pisteet   - näytä pisteet
+tallenna  - tallenna peli ("lopeta" komento tallentaa myös)
+ohje      - näytä ohjeet
+lopeta    - tallenna ja sulje peli
+ 
+Jatka peliä: kirjoita sama nimi, jolla pelasit aiemmin, ja vastaa
+"kyllä", kun peli kysyy jatketaanko tallennetusta aiemmasta kohdasta.
+Vinkki: tutustu myös taukohuoneeseen ja pomon huoneeseen!
+<------------------------------------------------------------------->
+<------------------------------------------------------------------->
+ 
