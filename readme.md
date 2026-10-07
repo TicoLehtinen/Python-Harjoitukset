@@ -41,3 +41,11 @@ Tein tehtävät 1, 2 ja 4.
 ## Moduuli 11 ##
 
 Tein tehtävän 1.
+
+## Moduuli 12 ##
+
+Tein kaikki Projektiin liittyvät tehtävät.
+
+## Moduuli 13 ##
+
+Tein kaikki Projektiin liittyvät tehtävät.

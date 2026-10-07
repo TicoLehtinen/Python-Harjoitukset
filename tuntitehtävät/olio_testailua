@@ -1,21 +1,11 @@
-class Pet:
-    def __init__(self, name, hunger, happiness):
-        self.name = name
-        self.hunger = hunger
-        self.happiness = happiness
-    
-    def feed(self):
-        print("Nam nam, Lex nappasi madon ja on nyt tyytyväinen")
-    
-    def play(self):
-        print("Leikit Lexin kanssa, nyt se on paljon onnellisempi!")
+class Juoma:
+    def __init__(self, nimi):
+        self.nimi = nimi
     
     
-print("Mitä haluat tehdä lemmikkisi kanssa?")
-komento = input()
-
-while True:
-    print("Mitä haluat tehdä lemmikkisi kanssa?")
-    komento = input()
-    if komento == "syötä":
-        print(syötä)
+class Parannusjuoma(Juoma):
+    def __init__(self, nimi, parannusmäärä):
+        super().__init__(nimi)
+        self.parannusmäärä = parannusmäärä
+        
+    def parannus(määrä):
