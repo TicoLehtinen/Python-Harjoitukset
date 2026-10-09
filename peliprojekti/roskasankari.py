@@ -350,7 +350,6 @@ def pääohjelma():
         print("Heippa!")    
         return
     print(lue_tiedosto("intro.txt"))
-    print(lue_tiedosto("ohjeet.txt"))
     print("Mikä nimesi on? ")
     nimi = input().strip()
     if nimi == "":
@@ -376,7 +375,9 @@ def pääohjelma():
         print(f"Tervetuloa, {nimi}! Aloitat huoneesta: {pelaaja.sijainti.nimi}.")
     else:
         print(f"Tervetuloa takaisin, {pelaaja.nimi}! Pisteesi: {pelaaja.pisteet}.")
- 
+        
+    print(lue_tiedosto("ohjeet.txt"))
+
     while True:
         print()
         print("<-------------------------------------- Päävalikko -------------------------------------->")
