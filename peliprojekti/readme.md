@@ -14,21 +14,21 @@
 ---------------------------------------------------------------------------------------------------------------------------------
 # Roskasankari THE KIERRÄTYSPELI
 
-Tekstipohjainen kierrätyspeli, jossa pelaaja työskentelee kierrätyskeskuksessa ja lajittelee roskia oikeisiin roskiksiin.
+Roskasankari on kierrätyspeli, jossa pelaaja työskentelee uutena työntekijänä jätekeskuksessa ja lajittelee roskia oikeisiin roskiksiin.
 
 ## Pelin idea ja tarina
 
-Pelaaja on aloittanut työt kierrätyskeskuksessa. Pomo odottaa ja vaatii, että roskat lajitellaan oikein. Lajittelupisteeseen tulee jatkuvasti uusia roskia, kuten muovipulloja, lasipurkkeja, tölkkejä ja banaaninkuoria. Pelaaja kerää roskat reppuunsa ja lajittelee ne oikeaan roskikseen.
+Pelaaja on aloittanut työt uutena työntekijänä jätekeskuksessa. Pomo odottaa ja vaatii, että roskat lajitellaan oikein. Lajittelupisteeseen tulee jatkuvasti uusia roskia, kuten muovipulloja, lasipurkkeja, tölkkejä ja banaaninkuoria. Pelaaja kerää roskat reppuunsa ja lajittelee ne oikeaan roskikseen.
 
 Oikea lajittelu antaa +10 pistettä ja virheellinen lajittelu vie -5 pistettä. Pelaajan työpaikka ja maine riippuvat siitä, kuinka hyvin hän lajittelee roskia työpäivänsä aikana.
 
 ## Tavoite
 
-Tavoitteena on kerätä 100 pistettä lajittelemalla roskat oikein. Jos pisteet loppuvat eli pelaajalla on vain 0 pistettä, hän menettää työpaikkansa ja peli päättyy pomon huutoihin. Peli voi päättyä myös ylennykseen, jos pelaaja tutustuu kierrätysoppaaseen ja osoittaa osaamisensa pomolle.
+Tavoitteena on kerätä 100 pistettä lajittelemalla roskat oikein. Jos pisteet loppuvat eli pelaajalla on vain 0 pistettä, hän menettää työpaikkansa ja peli päättyy pomon huutoihin. Peli voi päättyä myös ylennykseen, jos pelaaja tutustuu kierrätysoppaaseen ja osoittaa osaamisensa pomolle lajittelemalla tarpeeksi monta roskaa oikein, ennen 100 pisteen saavuttamista.
 
 ## Pelin loput
 
-| Loppu | Miten saavutetaan |
+| Loppu | Miten saavutetaan? |
 |---|---|
 | Voitto | Kerää 100 pistettä |
 | Ylennys | Lue opas taukohuoneessa, lajittele 5 roskaa oikein ja käy pomon luona |

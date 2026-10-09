@@ -4,7 +4,7 @@ import random
 import time
  
 ## Vakiot: pisteet, ikäraja ja repun painoraja
-KANSIO = os.path.dirname(os.path.abspath(__file__))  # kansio, jossa tämä tiedosto on
+KANSIO = os.path.dirname(os.path.abspath(__file__))
 TALLENNUSTIEDOSTO = os.path.join(KANSIO, "tallennus.json")
 IKÄRAJA = 12
 ALKUPISTEET = 20
@@ -13,10 +13,11 @@ OIKEA_PISTEET = 10
 VIRHE_PISTEET = 5
 REPUN_RAJA = 1.0
 YLENNYS_OIKEIN = 5
- 
+
+## Lista lajiteltavien roskien "lajeista"
 LAJIT = ["muovi", "lasi", "paperi", "metalli", "biojäte", "sekajäte"]
  
-## Roskat: nimi, paino ja oikea laji
+## Lista, jonka sisällä on monikko Roskat: nimi, paino ja oikea laji
 ROSKAT = [
     ("Cokispullo", 0.1, "muovi"),
     ("Muovipussi", 0.05, "muovi"),
@@ -32,7 +33,7 @@ ROSKAT = [
     ("Rikkinäinen kahvikuppi", 0.25, "sekajäte"),
 ]
  
-## Faktat, jotka näytetään, kun roska lajitellaan oikein
+## Sanakirja Faktat, jotka näytetään, kun roska lajitellaan oikein
 FAKTAT = {
     "muovi": "Kierrätetystä muovista voidaan tehdä uusia tuotteita, esim. polyester vaatteita.",
     "lasi": "Lasi voidaan kierrättää uudelleen ja uudelleen, ilman, että se heikkenee.",
@@ -56,7 +57,7 @@ class Huone:
     def __init__(self, nimi, kuvaus, toiminto=None):
         self.nimi = nimi
         self.kuvaus = kuvaus
-        self.toiminto = toiminto  # "opas", "pomo" tai None
+        self.toiminto = toiminto
  
  
 ## Pelaaja-luokka
@@ -66,10 +67,10 @@ class Pelaaja:
         self.sijainti = sijainti
         self.esineet = []
         self.pisteet = ALKUPISTEET
-        self.oikein = 0  # oikeat lajittelut yhteensä
+        self.oikein = 0 
         self.opas_luettu = False
  
-    ## Laskee repun painon yhteen. Pyöristys estää desimaalivirheet (esim. 0.30000000000000004).
+    ## Laskee repun painon yhteen.
     def repun_paino(self):
         yhteensä = 0
         for esine in self.esineet:
@@ -268,7 +269,7 @@ def lajittele_roskat(pelaaja):
         print("Tiesitkö? " + FAKTAT[esine.laji])
         if pelaaja.oikein == YLENNYS_OIKEIN:
             if pelaaja.opas_luettu:
-                print("Psst... olet lajitellut putkeen 5 roskaa oikein, nyt kannattaisi käydä pomon luona")
+                print("Psst... olet lajitellut 5 roskaa oikein, nyt kannattaisi käydä pomon luona")
             else:
                 print("Psst... olet lajitellut jo tarpeeksi. Pitäisiköhän sinun käydä taukohuoneessa kahvilla ja vaikka samalla käydä moikkaamassa uutta pomoasi hänen huoneessaan?")
     else:
@@ -319,7 +320,7 @@ def näytä_loppu(pelaaja, loppu):
         print("ja alkaa huutaamaan naama punaisena, niin, että tukkasi meinaa lähteä lentoon:")
         print("SINUT ON TÄLLÄ SEKUNILLA IRTISANOTTU JA TYÖSOPIMUKSESI PÄÄTTYY VÄLITTÖMÄSTI, HÄIVY SILMISTÄNI!")
     elif loppu == "ylennys":
-        print("Pomo on vaikuttunut taidoistasi, lajittelit putkeen 5 roskaa oikein! Pomo ylentää sinut roskasankariksi!")
+        print("Pomo on vaikuttunut taidoistasi, lajittelit 5 roskaa oikein! Pomo ylentää sinut roskasankariksi!")
         print("Kiertelet nyt ylpeänä työpaikan käytävillä maski ja viitta päälläsi, työkaverisi kutsuvat sinua pomon lemppariksi.")
         print(f"Pisteesi: {pelaaja.pisteet}. Hienoa työtä, {pelaaja.nimi}!")
     poista_tallennus(pelaaja.nimi)
