@@ -2,7 +2,7 @@
 
 ## Tico Lehtinen
 
-## Peliprojektissa on tällä hetkellä intro.txt, ohjeet.txt, itse peli roskasankari.py ja readme.md tiedostot. tallennus.txt luodaan automaattisesti, kun pelaaja joko lopettaa pelin tai tallentaa pelin, joten sitä ei tarvitse olla valmiina erikseen.
+## Peliprojektissa on tällä hetkellä intro.txt, ohjeet.txt, itse peli roskasankari.py ja readme.md tiedostot. tallennus.json luodaan automaattisesti, kun pelaaja joko lopettaa pelin tai tallentaa pelin, joten sitä ei tarvitse olla valmiina erikseen.
 
 ## Tein Projekti 2 tehtävän valmiiksi ja lisäsin muutaman komennon peliin, jotka eivät kyllä vielä tee mitään varsinaiseti.
 
@@ -10,7 +10,7 @@
 
 ## Tein Projekti 4 tehtävän, lisäsin luokat: pelaaja, huone ja esine ja annoi niille vaaditut ominaisuudet ja methodit / toiminnot.
 
-## Tein Projekti 5 tehtävän, tein intro.txt ja ohjeet.txt tiedostot ja kirjoitin sinne intron pelille, sekä ohjetiedostoon pelinohjeet, mitä mikäkin komento tekee yms. Tein myös mahdollisuuden tallentaa pelin (joko tallenna tai lopeta kommennolla) ja se tiedosto luodaan vasta, kun käyttäjä/pelaaja antaa jomman kumman komennon. Peliä voi jatkaa, jos syöttää saman nimen, kuin mikä edellisellä kerralla oli käytössä peliä pelatessa. Tiedostoon tallennettaan vain yksi pelaaja, jos joku uusi hahmo tehdään ja sillä pelataan, sekä tallennettaan peli, niin edellinen peli ylikirjoitetaa.
+## Tein Projekti 5 tehtävän, tein intro.txt ja ohjeet.txt tiedostot ja kirjoitin sinne intron pelille, sekä ohjetiedostoon pelinohjeet, mitä mikäkin komento tekee yms. Tein myös mahdollisuuden tallentaa pelin (joko tallenna tai lopeta kommennolla) ja se tiedosto luodaan vasta, kun käyttäjä/pelaaja antaa jomman kumman komennon. Peliä voi jatkaa, jos syöttää saman nimen, kuin mikä edellisellä kerralla oli käytössä peliä pelatessa.
 ---------------------------------------------------------------------------------------------------------------------------------
 # Roskasankari THE KIERRÄTYSPELI
 
